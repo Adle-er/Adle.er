@@ -8,7 +8,7 @@
     width: 25%;
     height: 100%;
     position: fixed;
-    border-right: #a3a3a3;
+    border-right: #949494;
     border-style: solid;
     border-width: 1px; 
     text-align: center;
@@ -26,31 +26,31 @@ img {
 
 h2 {    
     margin-top: 5%;
-    color: #555555;
+    color: #949494;
 }
 
 h3 {    
     font-weight: normal;
-    color: #555555;
+    color: #949494;
 }
 
 h4 {    
     margin-top: 30%;
-    color: #555555;
+    color: #949494;
 }
 
 h5 {
     letter-spacing: 7px;
     margin-left: 5%;
     margin-top: 15%;
-    color: #555555;
+    color: #949494;
 }
 
 p {    
     margin-top: 5%;
     margin-left: 3%;
     margin-right: 3%;
-    color: #555555;
+    color: #949494;
 }
 
 ul.redes {
@@ -80,6 +80,56 @@ ul.menu li {
 
 ul.menu a {
     text-decoration: none;
-    color: #555555;
+    color: #949494;
     font-size: 16px;
+}
+
+#ferramentas {
+    background-color: #f0f0f3;
+    width: 5%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    border-left: #949494;
+    border-style: solid;
+    border-width: 1px; 
+    text-align: center;
+}
+
+#imgseta {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    margin-bottom: 55%;
+}
+
+#imglamp {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    right: 5px;
+    margin-bottom: 150%;
+}
+
+#imghome {
+    width: 35px;
+    height: 35px;
+    margin-top: 55%;
+    position: absolute;
+    left: 5px;
+    right: 5px;    
+}
+
+#imgcertif {
+    width: 35px;
+    height: 35px;
+    margin-top: 150%;
+    position: absolute;
+    left: 5px;
+    right: 5px;
 }
