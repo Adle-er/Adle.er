@@ -133,3 +133,258 @@ ul.menu a {
     left: 5px;
     right: 5px;
 }
+
+article {
+    margin-left: 30%;
+    margin-right: 10%;
+    position: absolute;
+    margin-top: 5%;
+}
+
+article h1 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+article p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+@media (max-width: 400px) {
+    #sobre {
+        background-color: #f0f0f3;
+        width: 100%;
+        height: 15%;
+        border-right: #949494;
+        border-style: solid;
+        border-width: 1px; 
+        text-align: center;
+        z-index: 1;
+    }
+
+    img {
+        width: 20%;
+        height: 75%;
+        border-radius: 100px;
+        position: absolute;
+        left: 0;
+        margin-left: 5%;
+    }
+
+    h2 {    
+        margin-top: 8%;
+        margin-left: 16%;
+        color: #949494;
+    }
+    
+    h3 {    
+        font-weight: normal;
+        margin-left: 15%;
+        color: #949494;
+    }
+    
+    h4 {    
+        display: none;
+    }
+    
+    h5 {
+        display: none;
+    }
+
+    #sobre p {
+        display: none;
+    }
+
+    ul.redes {
+        display: none;    
+    }
+
+    ul.menu {
+        display: none;    
+    }
+
+    #ferramentas {
+        background-color: #f0f0f3;
+        width: 15%;
+        height: 100%;
+        position: fixed;
+        right: 0;
+        border-left: #949494;
+        border-style: solid;
+        border-width: 1px; 
+        text-align: center;
+    }
+    
+    #imgseta {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 14px;
+        right: 5px;
+        margin-bottom: 55%;
+    }
+    
+    #imglamp {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        bottom: 0;
+        left: 5px;
+        right: 5px;
+        margin-bottom: 150%;
+    }
+    
+    #imghome {
+        width: 35px;
+        height: 35px;
+        margin-top: 200%;
+        position: absolute;
+        left: 5px;
+        right: 5px;    
+    }
+    
+    #imgcertif {
+        width: 35px;
+        height: 35px;
+        margin-top: 300%;
+        position: absolute;
+        left: 5px;
+        right: 5px;
+    }
+
+    article {
+        margin-left: 5%;
+        margin-right: 20%;
+        position: absolute;
+        margin-top: 20%;
+    }
+    
+    article h1 {
+        font-size: 50px;
+        font-weight: bolder;
+        margin-top: 15%;
+    }
+    
+    article p {
+        font-size: 20px;
+        letter-spacing: 2px;
+        line-height: 25px;
+        text-align: justify;
+    }
+}
+
+@media (max-height: 360px) and (orientation: landscape) {
+    #sobre {
+        background-color: #f0f0f3;
+        width: 30%;
+        height: 100%;
+        border-right: #949494;
+        border-style: solid;
+        border-width: 1px; 
+        text-align: center;
+        z-index: 1;
+    }
+
+    #sobre img {
+        width: 45%;
+        height: 25%;
+        border-radius: 100px;
+        position: absolute;
+        left: 0;
+        margin-left: 30%;
+    }
+
+    h2 {    
+        margin-top: 55%;
+        color: #949494;
+    }
+    
+    h3 {    
+        font-weight: normal;
+        color: #949494;
+    }
+    
+    #sobre p {
+        margin-top: 10%;
+        color: #949494;
+    }
+
+    ul.redes {
+        margin-top: 0%;
+        width: 100%;
+        display: none;
+    }
+    
+    #ferramentas {
+        background-color: #f0f0f3;
+        width: 10%;
+        height: 100%;
+        position: fixed;
+        right: 0;
+        border-left: #949494;
+        border-style: solid;
+        border-width: 1px; 
+        text-align: center;
+    }
+    
+    #imgseta {
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        bottom: 0;
+        left: 5px;
+        right: 5px;
+        margin-bottom: 55%;
+    }
+    
+    #imglamp {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        bottom: 0;
+        left: 5px;
+        right: 5px;
+        margin-bottom: 120%;
+    }
+    
+    #imghome {
+        width: 35px;
+        height: 35px;
+        margin-top: 40%;
+        position: absolute;
+        left: 5px;
+        right: 5px;    
+    }
+    
+    #imgcertif {
+        width: 35px;
+        height: 35px;
+        margin-top: 120%;
+        position: absolute;
+        left: 5px;
+        right: 5px;
+    }
+
+    article {
+        margin-left: 30%;
+        margin-right: 10%;
+        position: absolute;
+    }
+    
+    article h1 {
+        font-size: 25px;
+        font-weight: bolder;
+        margin-left: 5%;
+    }
+    
+    article p {
+        font-size: 15px;
+        letter-spacing: 2px;
+        line-height: 25px;
+        text-align: justify;
+    }
+}
